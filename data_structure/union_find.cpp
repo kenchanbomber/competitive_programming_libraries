@@ -1,9 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-using ll = long long;
-using P = pair<int, int>;
-using T = tuple<int,int,int>;
-#define rep(i, j, n) for (int i = j; i < (int)(n); i++)
 
 struct UnionFind {
     vector<int> d;
