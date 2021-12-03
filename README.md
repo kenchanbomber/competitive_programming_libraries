@@ -15,7 +15,7 @@ Receives a number and returns the prime factor and the count.
 O(√N)
 
 ### combination
-A library for　xCy.
+A library for xCy.
 
 #### pascals triangle
 Precalculate the result using Pascal's triangle.
