@@ -32,3 +32,9 @@ Library of various data structures.
 
 ### union find
 Data structure that manages grouping in a tree structure.
+
+## Other
+
+### run length encoding
+
+One of the data compression algorithms.
