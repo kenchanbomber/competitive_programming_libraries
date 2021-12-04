@@ -1,9 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-struct UnionFind {
+struct union_find {
     vector<int> d;
-    UnionFind(int n=0): d(n+1,-1) {}
+    union_find(int n=0): d(n+1,-1) {}
     int find(int x) {
         if(d[x] < 0) return x;
         return d[x] = find(d[x]);
@@ -21,7 +21,7 @@ struct UnionFind {
 
 int main() {
     //let's make 2 groups {1,2,3} {5,6}
-    UnionFind uf = UnionFind(10);
+    union_find uf = union_find(10);
 
     //"unite"
     uf.unite(1,2);
