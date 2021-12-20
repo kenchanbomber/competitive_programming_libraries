@@ -38,3 +38,6 @@ Data structure that manages grouping in a tree structure.
 ### run length encoding
 
 One of the data compression algorithms.
+
+## template.cpp
+A template file that is described in common to all files.
