@@ -17,6 +17,7 @@ struct union_find {
     }
     bool same(int x, int y) { return find(x) == find(y); }
     int size(int x) { return -d[find(x)]; }
+    bool is_root(int x) { return find(x) == x; }
 };
 
 int main() {
@@ -40,5 +41,8 @@ int main() {
     cout << uf.size(1) << endl; // 3
     cout << uf.size(5) << endl; // 2
 
+    // is_root
+    cout << (uf.is_root(1) ? "true" : "false") << endl; // true
+    cout << (uf.is_root(3) ? "true" : "false") << endl; // false
     return 0;
 }
