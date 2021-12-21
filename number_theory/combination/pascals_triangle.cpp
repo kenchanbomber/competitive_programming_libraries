@@ -1,14 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
-using ll = long long;
-using P = pair<int, int>;
-#define rep(i, j, n) for (int i = j; i < (int)(n); i++)
 const int MAX_N = 1000;
-ll C[MAX_N][MAX_N];
+long long C[MAX_N][MAX_N];
 
 void init_pascal() {
     C[0][0] = 1;
-    rep(i,0,MAX_N)rep(j,0,i+1) {
+    for(int i = 0; i < MAX_N; i++) for(int j = 0; j < i + 1; j++) {
         C[i+1][j] += C[i][j];
         C[i+1][j+1] += C[i][j];
     }
