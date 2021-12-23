@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// 区間内の素数を全て求める
 vector<int> make_primes(int n) {
     vector<int> is_prime(n+1, 1), res;
     is_prime[0] = is_prime[1] = 0;

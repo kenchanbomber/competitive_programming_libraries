@@ -2,6 +2,7 @@
 using namespace std;
 const int mod = 1000000007;
 
+// 自動でmodをとる整数型
 struct mint {
     long long x;
     mint(long long x = 0) :x((x% mod + mod) % mod) {}
