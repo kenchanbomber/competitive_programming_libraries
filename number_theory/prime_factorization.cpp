@@ -3,6 +3,7 @@ using namespace std;
 using ll = long long;
 using P = pair<int, int>;
 
+// 素因数分解
 map<ll,int> prime_factorization(ll n) {
     map<ll,int> mp;
     for(ll i = 2; i*i <= n; ++i) while(n%i == 0){ mp[i]++; n /= i; }
