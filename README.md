@@ -44,5 +44,9 @@ N以下の正整数Kについて素因数分解を高速に行う。O(LogK)
 ### run length encoding
 One of the data compression algorithms.
 
+### cumulative sum
+配列を渡すとその配列の累積和を返す関数。
+累積和は [left, right) の半開区間を採用している。
+
 ## template.cpp
 A template file that is described in common to all files.
