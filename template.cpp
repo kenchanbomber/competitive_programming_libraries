@@ -9,6 +9,7 @@ using vvi = vector<vector<int>>;
 #define srep(i, j, n) for (int i = j; i < (int)(n); i++)
 #define fi first
 #define se second
+#define sz(x) (int)(x).size()
 template <typename T>bool chmax(T &a, const T &b) { if(a < b) { a = b; return true; } return false; }
 template <typename T>bool chmin(T &a, const T &b) { if(a > b) { a = b; return true; } return false; }
 const vector<int> dx = {-1,0,1,0};
